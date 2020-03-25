@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  background-color: #424242;
+}
+
+#main-canvas {
+  background-color: #27b9ff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+#main-canvas[resize] {
+  height: 100%;
+  width: 100%;
+}
+
+#toolbar {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 4%;
+  flex-flow: column;
+  padding: 0;
+  box-shadow: 0px 0px 0px .11em inset #192b36;
+  margin: 0;
+  background: #315c6e;
+  z-index: 10;
+  font-size: 30px;
+  text-align: left;
+  list-style-type: none;
+  color: #d7ffff;
+}
+
+.fas {
+  border: .06em #222222 solid;
+}
+
+.fas:hover {
+  color: #315c6e;
+  background-color: #d7ffff;
+  box-shadow: 0px 0px 0px .11em inset #6bc7cf;
+}
+
+
